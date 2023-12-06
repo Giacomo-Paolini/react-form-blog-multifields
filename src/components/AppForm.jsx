@@ -59,7 +59,7 @@ export default function AppForm() {
 
   return (
     <div>
-      <h2 className="text-4xl mb-4">Aggiungi un post</h2>
+      <h2 className="text-4xl mb-4">Add a new post</h2>
       <form onSubmit={handleOnSubmit}>
         <div className="grid">
           <input
@@ -148,7 +148,7 @@ export default function AppForm() {
           </button>
         </div>
       </form>
-      <h3 className="text-2xl">List</h3>
+      <h3 className="text-2xl">List of posts</h3>
       <div className="p-4 m-auto">
         {blog.map((post, index) => (
           <div className="grid justify-center gap-2" key={index}>
